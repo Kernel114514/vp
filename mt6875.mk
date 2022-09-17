@@ -251,6 +251,7 @@ PRODUCT_PACKAGES += \
     init.mt6873.rc \
     init.mt6873.usb.rc \
     init.sensor_2_0.rc \
+    init.target.rc \
     ueventd.mtk.rc
 
 PRODUCT_PACKAGES += \
