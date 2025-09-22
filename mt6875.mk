@@ -98,6 +98,10 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshim_audio
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
