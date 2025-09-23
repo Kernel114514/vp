@@ -102,6 +102,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_audio
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.mt6873 \
+    init.ago.rc \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6873.rc \
+    init.mt6873.usb.rc \
+    init.sensor_2_0.rc \
+    ueventd.mtk.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
