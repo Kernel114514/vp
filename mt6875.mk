@@ -232,6 +232,7 @@ PRODUCT_PACKAGES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6873 \
+    fstab.mt6873_ramdisk \
     init.ago.rc \
     init.connectivity.rc \
     init.modem.rc \
