@@ -253,6 +253,9 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     ueventd.mtk.rc
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6768.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
